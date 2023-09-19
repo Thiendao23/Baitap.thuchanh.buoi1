@@ -68,8 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="ShopDunk\chao-tan-sv.png" />
+    <Content Include="ShopDunk\Home.html" />
+    <Content Include="ShopDunk\ip14pr.128gb.png" />
+    <Content Include="ShopDunk\ip14prm.128gb.png" />
     <Content Include="ShopDunk\MasterLayout.html" />
     <Content Include="ShopDunk\MasterStyle.css" />
+    <Content Include="ShopDunk\new.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="ShopDunk\ip15.128gb.webp" />
+    <Content Include="ShopDunk\ip15prm.256gb.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

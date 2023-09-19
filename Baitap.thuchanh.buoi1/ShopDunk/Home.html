@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Home Page</title>
+    <style type="text/css">
+        section{
+            width:100%;
+            max-height:400px;
+        }
+        article{
+            background-color:lightgrey;
+            width: 100%;
+        }
+        .news, .products, .promotions, .services{
+            padding:20px;
+        }
+        #prod-Category{
+            font-family: Arial;
+            font-size: medium;
+        }
+        #prod-table{
+            background-color: white;
+            border-spacing: 10px;
+            width: 10%;
+        }
+        #prod-td{
+            width: 25%;
+            border: 1px ;
+            border-radius: 8px;
+        }
+        #prod-label{
+            float: right;
+            position: relative;
+            bottom: 5px;
+            padding: 5px;
+            max-height: 40px;
+            max-width: 120px;
+            /*vertical-align: top;*/
+        }
+        #prod-img{
+            max-height: 250px;
+            max-width: 300px;
+            border: none;
+        }
+        #prod-name{
+            font-family: Arial;
+            font-size: medium;
+            text-align: left;
+        }
+        #newPrice {
+            font-family: 'Times New Roman';
+            font-size: medium;
+            text-align: left;
+            color: cornflowerblue;
+            display: inline;
+        }
+        #oldPrice {
+            font-family: Arial;
+            font-size: small;
+            color:lightgrey;
+            display:inline;
+            text-decoration: line-through;
+        }
+        #discount{
+            font-family: Arial;
+            font-size: small;
+            color: lightgrey;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        SLIDER
+    </section>
+    <article>
+        <div class="promotions">
+
+        </div>
+        <div class="products">
+            <h1 id="prod-Category">iPhone</h1>
+            <table id="prod-table">
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="new.png" />
+                        <img id="prod-img" src="ip15.128gb.webp" />
+                        <p id="prod-name">iPhone 15 128GB</p>
+                        <p id="newPrice">22.990.000</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="new.png" /><br />
+                        <img id="prod-img" scr="ip15prm.256gb.webp" /><br />
+                        <p id="prod-name">iPhone 15 Pro Max 256GB</p>
+                        <p id="newPrice">34.999.000</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="chao-tan-sv.png" /><br />
+                        <img id="prod-img" scr="ip14prm.128gb.png" /><br />
+                        <p id="prod-name">iPhone 14 Pro Max 128GB</p>
+                        <p id="newPrice">26.150.000</p>
+                        <p id="oldPrice">34.999.000</p>
+                        <p id="discount">-25%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="chao-tan-sv.png" /><br />
+                        <img id="prod-img" scr="ip14pr.128gb.png" /><br />
+                        <p id="prod-name">iPhone 14 Pro 128GB</p>
+                        <p id="newPrice">23.890.000</p>
+                        <p id="oldPrice">30.990.000</p>
+                        <p id="discount">-22%</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="ProductCategory.html">Xem tất cả iPhone</a>
+            </div>
+        </div>
+        <div class="services">
+            
+        </div>
+        <div class="news">
+
+        </div>
+    </article>
+</body>
+</html>
